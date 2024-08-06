@@ -3,6 +3,7 @@ import pymysql
 from sec_api import QueryApi
 import pandas as pd
 
+# git change
 class Filing13F:
     def __init__(self, periodOfReport: str, queryApi: QueryApi, db_connection):
         self.queryApi = queryApi
